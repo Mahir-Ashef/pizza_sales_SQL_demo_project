@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Table1">
+	<Table>
+		<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Row>
+			<Cell><Data ss:Type="String">pizza_id</Data></Cell>
+			<Cell><Data ss:Type="String">revenue_per_pizza_type</Data></Cell>
+		</Row>
+
+		<Row>
+			<Cell><Data ss:Type="String">thai_ckn_l</Data></Cell>
+			<Cell><Data ss:Type="Number">29258</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">five_cheese_l</Data></Cell>
+			<Cell><Data ss:Type="Number">26066</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">four_cheese_l</Data></Cell>
+			<Cell><Data ss:Type="Number">23622</Data></Cell>
+		</Row>	</Table>
+</Worksheet>
+</Workbook>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Table1">
+	<Table>
+		<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Row>
+			<Cell><Data ss:Type="String">category</Data></Cell>
+			<Cell><Data ss:Type="String">(SUM(order_details.quantity * pizzas.price)/
+(SELECT SUM(order_details.quantity * pizzas.price)
+FROM order_details JOIN pizzas ON order_details.pizza_id = pizzas.pizza_id)*100)</Data></Cell>
+		</Row>
+
+		<Row>
+			<Cell><Data ss:Type="String">Classic</Data></Cell>
+			<Cell><Data ss:Type="Number">26.905960255669903</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Supreme</Data></Cell>
+			<Cell><Data ss:Type="Number">25.45631126009884</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Chicken</Data></Cell>
+			<Cell><Data ss:Type="Number">23.955137556847493</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Veggie</Data></Cell>
+			<Cell><Data ss:Type="Number">23.682590927384783</Data></Cell>
+		</Row>	</Table>
+</Worksheet>
+</Workbook>
